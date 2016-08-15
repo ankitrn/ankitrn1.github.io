@@ -1,0 +1,34 @@
+body{
+  
+  background-color: #111;
+}
+.output{
+  
+  color: #efefef;
+  font-size: 40px;
+  text-align: center;
+}
+h1{
+  
+  color: #efefef;
+  font-family: 'Open Sans';
+  text-align: center;
+  font-size: 40px;
+}
+#input{
+  
+  width: 400px;
+  background-color: grey;
+  border-color: transparent;
+  margin-left: 756px;
+  margin-top: 50px;
+}
+
+.table{
+  
+  border: 1px solid;
+  color: #d35400;
+  margin: 100px;
+}
+
+
