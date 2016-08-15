@@ -1,0 +1,27 @@
+<html ng-app='appModule'>
+
+<head>
+    <link href='index.css' rel='stylesheet' type='text/css'>
+    <title> SoStronk Team Search </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+</head>
+
+<body ng-controller='controller'>
+    <h1 class='heading'> Search Teams </h1>
+    <input id="input" placeholder='Search your team' ng-model = 'searchIt.name'> </input>
+
+    <hr class='table'>
+    <div ng-repeat='team in teamData.teams | filter: searchIt'>
+        <div class='output'>
+            <p ng-model='controller'>{{ team.name }}</p>
+        </div>
+    </div>
+
+</body>
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+<script src='module.js'></script>
+<script src='controller.js'></script>
+
+</html>
