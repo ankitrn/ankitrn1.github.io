@@ -1,6 +1,6 @@
 app.controller('controller',['$scope','dataEuro',function($scope,dataEuro){
     
-    controller.fetchData().then(
+    dataEuro.fetchData().then(
         
         function(returned){
         
