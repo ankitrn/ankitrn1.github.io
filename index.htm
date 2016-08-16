@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html ng-app='module'>
+
+<head>
+    <title>Euro data extracted</title>
+    <h1 class='header'>EURO data!</h1>
+    <link href='index.css' rel='stylesheet' type='text/css'>
+</head>
+
+<body ng-controller='controller'>
+    <div ng-repeat='a in dataEuro'>
+        <div class='output'>
+            <p ng-model='controller'>
+                {{a.nm}}
+            </p>
+        </div>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.5/angular.min.js"></script>
+<script src='module.js'></script>
+
+</html>
