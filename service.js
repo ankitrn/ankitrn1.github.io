@@ -4,7 +4,7 @@ app.factory('dataEuro', function($http) {
 
         fetchData: function(data) {
 
-            $http.get('http://mysafeinfo.com/api/data?list=englishmonarchs&format=json');
+           return $http.get('http://mysafeinfo.com/api/data?list=englishmonarchs&format=json');
         }
 
     }
